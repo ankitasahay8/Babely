@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* ===== Light Chat Theme ===== */
+.light-chat-theme {
+  /* Chat Container */
+  .str-chat__channel {
+    background: #f3f4f6;
+  }
+
+  .str-chat__container {
+    background-color: #ffffff;
+    border: 2px solid #d1d5db;
+  }
+
+  .str-chat__list {
+    background-color: #ffffff !important;
+    border-top: 1px solid #d1d5db;
+    border-bottom: 1px solid #d1d5db;
+  }
+
+  .str-chat__message-input {
+    background-color: #f9fafb;
+    border-top: 2px solid #d1d5db;
+  }
+
+  .str-chat__channel-header {
+    background-color: #f9fafb;
+    color: #1f2937;
+    border-bottom: 2px solid #d1d5db;
+  }
+
+  /* ... more as needed */
+}
+
+/* ===== Dark (Forest) Chat Theme ===== */
+.dark-chat-theme {
+  .str-chat__channel {
+    background: linear-gradient(to bottom, #1a2e22, #122518);
+  }
+
+  .str-chat__container {
+    background-color: #1a1e1b;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  .str-chat__list {
+    background-color: #151616 !important;
+  }
+
+  .str-chat__message-input {
+    background-color: #19251e;
+    border-top: 1px solid #34d399;
+  }
+
+  .str-chat__channel-header {
+    background-color: #1f2922;
+    color: #d1fae5;
+    border-bottom: 1px solid #34d399;
+  }
+
+  /* ... more as needed */
+}
+
